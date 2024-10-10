@@ -384,14 +384,6 @@
   tags:
     - embeddings
 
-- title: Azure DALL·E image generation example
-  path: examples/azure/DALL-E.ipynb
-  date: 2023-06-12
-  authors:
-    - glecaros
-  tags:
-    - dall-e
-
 - title: Azure Chat Completions example (preview)
   path: examples/azure/chat.ipynb
   date: 2023-03-28
@@ -408,17 +400,6 @@
   authors:
     - kristapratico
   tags:
-    - completions
-
-- title: Azure completions example
-  path: examples/azure/completions.ipynb
-  date: 2022-12-16
-  authors:
-    - cmurtz-msft
-    - glecaros
-    - kristapratico
-  tags:
-    - embeddings
     - completions
 
 - title: Azure embeddings example
@@ -1608,3 +1589,28 @@
   tags:
     - completions
     - reasoning
+
+- title: Using chained calls for o1 structured outputs
+  path: examples/o1/Using_chained_calls_for_o1_structured_outputs.ipynb
+  date: 2024-09-26
+  authors:
+    - ericning-o
+  tags:
+    - completions
+    - reasoning
+
+- title: Building a Bring Your Own Browser (BYOB) Tool for Web Browsing and Summarization
+  path: examples/third_party/Web_search_with_google_api_bring_your_own_browser_tool.ipynb
+  date: 2024-09-26
+  authors:
+    - msingh-openai
+  tags:
+    - completions
+
+- title: Prompt Caching 101 
+  path: examples/Prompt_Caching101.ipynb
+  date: 2024-10-01
+  authors:
+    - charuj
+  tags:
+    - completions
